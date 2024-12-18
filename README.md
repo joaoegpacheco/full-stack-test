@@ -1,6 +1,10 @@
 
 <p align="center"> <img src="https://coopers.digital/assets/img/coopers-brand.png" alt="Marca da Coopers" /> </p> <p align="center"> <em>Fast, flexible, trustful.</em> </p>
 
+# Start das aplicações de front-end e back-end
+Para ambos as apliacações: npm run dev
+
+
 # Avaliação Full Stack Developer
 
 Este documento tem como objetivo apresentar os pré-requisitos para a avaliação técnica do desenvolvedor full stack, com base em um layout criado por nossa equipe especificamente para esta finalidade.
