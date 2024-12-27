@@ -1,4 +1,4 @@
-import { User } from "../models/User"; // Ajuste o caminho conforme necessário
+import { User } from "../models/User";
 
 declare global {
   namespace Express {

@@ -16,4 +16,13 @@ db.prepare(`
   )
 `).run();
 
+db.prepare(`CREATE TABLE todos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    userid INTEGER,
+    text TEXT NOT NULL,
+    completed BOOLEAN DEFAULT FALSE,
+    FOREIGN KEY (userid) REFERENCES users(id)
+  )
+`).run();
+
 export default db;
